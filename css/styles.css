@@ -1,0 +1,98 @@
+	
+	@media (max-width: 1200px) {
+
+
+		#general {
+			margin-top: 60px;
+			margin-right: 30px;
+			margin-left: 30px;
+			margin-bottom: 10px; 
+			padding: 70px;
+			background-color: #221D23;
+		}
+    }
+
+    @media (min-width: 1200px) {
+
+
+		#general {
+			margin-top: 60px;
+			margin-right: 350px;
+			margin-left: 350px;
+			margin-bottom: 10px;
+			padding: 70px;
+			background-color: #221D23;
+		}
+
+
+    }
+	
+
+    body {
+			background: url(../img/fondo.jpg) no-repeat center fixed;
+			background-attachment: fixed;
+	}
+
+	p, button, label {
+			text-align: justify;
+			font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+			color: white;
+			font-size: 19px;
+	}
+
+	img {
+			margin: 0 auto;
+			width: 100%;
+	    	max-width: 300px;
+	    	padding: 10px;
+	    	
+	}
+
+	select.form-control,input.form-control, textarea.form-control {
+
+			border-radius: 15px;
+			background-color: #191A19;
+	}
+
+	select.form-control:focus ,input.form-control:focus , textarea.form-control:focus {
+
+			border-radius: 15px;
+			background-color: #191A19;
+			border-color: red;
+			-webkit-box-shadow: 0px 2px 29px -8px rgba(255,0,0,1);
+			-moz-box-shadow: 0px 2px 29px -8px rgba(255,0,0,1);
+			box-shadow: 0px 2px 29px -8px rgba(255,0,0,1);
+			color: white;
+
+	}
+		
+	.form-group {
+			padding-top: 30px; 
+	}
+
+	#boton {
+			float: right;
+			padding-left: 35px;
+			padding-right: 35px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			border-radius: 5px;
+			background-color: #BC1818;
+			border-color: #11866F;
+	}
+
+	#boton:hover {
+		background-color: #871010;
+		border-color: #0e6654;
+
+	}
+
+	#clearfix {
+			margin-bottom:  70px;
+			width: 100%;
+	}
+
+	
+
+
+ 
